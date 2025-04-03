@@ -140,7 +140,7 @@ section {
 }
 
 .card .icon {
-    color: gold;
+    color: #000016;
     font-size: 8em;
     text-align: center;
 }
@@ -238,10 +238,6 @@ section {
     font-weight: 600;
 }
 
-.footer-title span {
-    color: #3a6cf4;
-}
-
 .footer .social-icons a {
     font-size: 1.3em;
     padding: 0 12px 0 0;
@@ -264,6 +260,26 @@ section {
         padding: 80px 20px;
     }
 
+    .main {
+        flex-direction: column-reverse;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .profile {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    .main h2 span {
+        font-size: 2.5em;
+    }
+
+    .project-card {
+        width: 90%;
+        max-width: 23em;
+    }
+
     .main-content h2 {
         font-size: 1em;
     }
@@ -284,18 +300,46 @@ section {
         font-size: 12px;
     }
 
-    .main-content h2 {
-        font-size: 0.8em;
+    .profile {
+        width: 90%;
     }
 
-    .main-content h3 {
-        font-size: 1.4em;
+    .main h2 span {
+        font-size: 2em;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .social-icons a {
+        padding-right: 15px;
+    }
+
+    .contact .info p {
+        font-size: 1.2em;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .social-icons {
+        margin-top: 10px;
     }
 }
 
 @media (max-width:300px) {
     body {
         font-size: 10px;
+    }
 
+    .main-btn {
+        padding: 0.7em 1.7em;
+    }
+
+    .profile {
+        width: 100%;
     }
 }
